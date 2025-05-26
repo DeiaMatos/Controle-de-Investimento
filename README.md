@@ -1,17 +1,40 @@
-# Controle-de-Investimento
-Planilha para controle de investimento.
+# Controle de Investimento
 
-## 🧩 Funcionalidades
+# 📊 Planilha de Investimentos FIIs por Perfil de Risco
 
-- Definição do perfil de investidor com base em perguntas simples
-- Simulação de cenários com estimativas de rendimento mensal
-- Sugestões de alocação conforme perfil de risco
-- Projeção de patrimônio acumulado ao longo do tempo
-- Visualização gráfica e resumo dos dividendos mensais
+Essa planilha foi criada para auxiliar investidores a simular e planejar seus aportes mensais em Fundos Imobiliários (FIIs), com alocação personalizada de acordo com o perfil de risco (Conservador, Moderado ou Agressivo).
 
-## 🧠 Perfil de Risco
+---
 
-A definição do perfil de investidor é baseada em uma abordagem simples e acessível, voltada a iniciantes que desejam clareza sobre seu grau de tolerância a risco.
+## ✅ Objetivos
+
+- Simular o valor acumulado com investimentos mensais ao longo do tempo
+- Visualizar o valor estimado de dividendos mensais
+- Definir a alocação ideal de ativos com base no perfil de risco
+- Acompanhar o crescimento do patrimônio e a distribuição da carteira por tipo de FII
+------
+
+### 📈 Aba `ControleDeInvestimento`
+
+#### Seção: Configurações Iniciais
+- **Salário**: valor mensal de referência
+- **Sugestão de investimento**: 30% do salário (ajustável)
+- **Rendimento estimado da carteira**: 0,6% ao mês
+
+#### Seção: Investimento Mensal
+- Valor mensal investido (ex: R$ 200,00)
+- Duração do investimento em anos (ex: 5 anos)
+- Taxa de juros compostos (ex: 1,08% ao mês)
+- **Fórmula principal**: `=VF(taxa; períodos; pagamento)`
+- Simulação de dividendos mensais: `ValorAcumulado * 0,006`
+
+#### Seção: Alocação por Perfil
+- Perfil selecionado (Conservador / Moderado / Agressivo)
+- Alocação do valor investido por tipo de FII
+- Cálculo automático via `PROCV` (ex: `=PROCV("Conservador-PAPEL", ...)`)
+- Gráfico de pizza dinâmico
+
+----------------------------------------------------------------------
 
 # 📐 Explicação das Fórmulas Utilizadas
 
