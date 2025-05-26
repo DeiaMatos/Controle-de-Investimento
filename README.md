@@ -9,24 +9,6 @@ Planilha para controle de investimento.
 - Projeção de patrimônio acumulado ao longo do tempo
 - Visualização gráfica e resumo dos dividendos mensais
 
-## 📸 Imagens da Planilha
-
-| Cenários | Sugestão de Alocação |
-|----------|-----------------------|
-| ![Cenários](images/Form_Cenarios.png) | ![Sugestão](images/Form_Sugestao_Invest.png) |
-
-| Perfil de Investidor | Tabela de Apoio |
-|----------------------|-----------------|
-| ![Perfil](images/Print_Perfil.png) | ![Tabela](images/Print_Tab_Apoio.png) |
-
-| Projeção de Patrimônio | Dividendos Mensais |
-|------------------------|---------------------|
-| ![Patrimônio](images/Form_Patrimo_Acumulado.png) | ![Dividendos](images/Form_Dividendos_Mensais.png) |
-
-| Gráfico Final | Cofrinho |
-|---------------|----------|
-| ![Gráfico](images/Print_Grafico.png) | ![Cofrinho](images/Print_Cofrinho.png) |
-
 ## 🧠 Perfil de Risco
 
 A definição do perfil de investidor é baseada em uma abordagem simples e acessível, voltada a iniciantes que desejam clareza sobre seu grau de tolerância a risco.
